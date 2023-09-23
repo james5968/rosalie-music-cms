@@ -15,7 +15,6 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro,
 }) => {
   const heroImage = getImage(image) || image;
 
@@ -70,9 +69,6 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
 };
 
 const IndexPage = ({ data }) => {
@@ -87,7 +83,6 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
-        intro={frontmatter.intro}
       />
     </Layout>
   );
@@ -120,18 +115,6 @@ export const pageQuery = graphql`
           description
         }
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
       }
     }
   }
