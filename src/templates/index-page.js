@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
+import { navigate } from "gatsby-link";
 
 import Layout from "../components/Layout";
 import FullWidthImage from "../components/FullWidthImage";
@@ -43,6 +44,15 @@ export const IndexPageTemplate = ({
                       <h3 className="has-text-weight-semibold ">{heading}</h3>
                     </div>
                   </div>
+                  <button
+                    onClick={() => {
+                      navigate("/contact/");
+                    }}
+                    className="button is-link"
+                    type="button"
+                  >
+                    Contact me
+                  </button>
                 </div>
               </div>
             </div>
