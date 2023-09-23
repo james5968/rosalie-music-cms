@@ -1,21 +1,19 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Piano and Violin lessons
+image: /img/jordan-whitfield-bhfe1igcsa8-unsplash.jpg
+heading: It is never too late to start  experiencing the thrill of  making music!
+subheading: Private lessons for beginners
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: Why me?
+  description: >+
+    I have 40 years experience in teaching violin and piano to all ages, but
+    specialise in adult beginners, offering a relaxing teaching environment in
+    my home in Ifield, West Sussex.
+
+
+description: You set the pace and decide whether it is about achieving
+  certificates or just having fun.
 intro:
   blurbs:
     - image: /img/coffee.png
