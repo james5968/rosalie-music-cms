@@ -20,6 +20,7 @@ const Navbar = () => {
             className={`navbar-burger burger ${isActive && "is-active"}`}
             aria-expanded={isActive}
             onClick={() => setIsActive(!isActive)}
+            aria-label="Navigation drawer"
           >
             <span />
             <span />
