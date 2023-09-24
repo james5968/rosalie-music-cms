@@ -2,16 +2,30 @@
 templateKey: about-page
 path: /fees
 title: Tuition fees
+main:
+  heading: "1"
+  description: "1"
+  image1:
+    image: /img/jordan-whitfield-bhfe1igcsa8-unsplash.jpg
+    alt: "1"
+  image2:
+    image: /img/jordan-whitfield-bhfe1igcsa8-unsplash.jpg
+    alt: "1"
+  image3:
+    image: /img/jordan-whitfield-bhfe1igcsa8-unsplash.jpg
+    alt: "1"
+full_image: /img/jordan-whitfield-bhfe1igcsa8-unsplash.jpg
+pricing:
+  heading: "1"
+  description: "1"
 ---
 **£10.00** - once-off taster lesson of 30 minutes                                               
 
-**£20.00 - 30 minutes** \[£68.00 for block of 4 lessons]
+**£20.00 - 30 minutes** \[£80.00 for block of 4 lessons]
 
-**£30.00 - 45 minutes** \[£100.00 for block of 4 lessons];
+**£30.00 - 45 minutes** \[£120.00 for block of 4 lessons]
 
-**£40.00 - 60 minutes** \[£136.00 for block of 4 lessons]
-
- 
+**£40.00 - 60 minutes** \[£160.00 for block of 4 lessons]
 
 Music and any other materials are additional.
 
